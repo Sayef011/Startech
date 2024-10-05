@@ -1,0 +1,564 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	background-color: #f2f4f8;
+}
+#nav-1{
+	background-color: #081621;
+	padding: 15px 0;
+}
+
+.container{
+	width: 1285px;
+	margin: auto;
+}
+.wrapper{
+	display: flex;
+	align-items: center;
+}
+.wrapper .left-logo-img{
+	margin-right: 25px;
+}
+.wrapper .left-logo-img a img{
+	width: 120px;
+}
+.src-btn{
+	display: flex;
+}
+.src-btn input{
+	width: 580px;
+	height:40px;
+	padding: 22px;
+	outline: none;
+	border: none;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-size: 15px;
+	margin-right: 25px;
+	position: relative;
+	border-radius: 4px;
+}
+.src-btn a i{
+	position: absolute;
+	width: 30px;
+	font-size: 18px;
+	/* left: 50%; */
+	transform: translateX(-220%);
+	top: 36px;
+}
+.header-navbar{
+	display: flex;
+}
+.parent-of-navbar-list{
+	display: flex;
+	align-items: center;
+	margin-right: 23px;
+	cursor: pointer;
+}
+.header-icon a i{
+	color: #ef4a23;
+	font-size: 20px;
+	margin-right: 15px;
+}
+.header-content h4{
+ font-size: 15px;
+ color: #f8f8f8;
+ font-weight: 400;
+}
+.header-content h6{
+	font-size: 11px;
+	font-weight: 400;
+	color: #848b90;
+}
+.header-content h6 .link-hover:hover{
+	color: #ef4a23;
+}
+.builder-btn a{
+	text-decoration: none;
+	color: #f8f8f8;
+	font-weight: 600;
+	padding: 0 15px;
+	width: 100%;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 300ms linear;
+}
+.builder-btn{
+	background: linear-gradient(54deg,#00237e,#3749bb,#0bc1e9,#3749bb,#00237e);
+	background-size: 400% 400%;
+    border: none;
+	width: 120px;
+	height: 45px;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	}
+
+	#nav-2{
+		background-color: #ffffff;
+		border-bottom: 1px solid #dddddd;
+		
+	}
+
+
+	.main-menubar-parent{
+		display: flex;
+		align-items: center;
+	}
+	.main-menubar-parent li{
+		list-style-type: none;
+		padding: 18px 0;
+	}
+	.main-menubar-parent li a{
+		text-decoration: none;
+		color: black;
+		font-family: "Poppins", sans-serif;
+		margin-right: 12px;
+		font-size: 14px;
+		font-weight: 600;
+		transition: all .1s ease;
+	}
+	.main-menubar-parent li a:hover{
+		color: #ef4a23;
+	}
+	.main-menubar-parent li a:hover{
+		color: #ef4a23;
+	}
+	 
+
+	.dekstop-parent{
+		position: relative;
+	}
+	.dekstop-child{
+		position: absolute;
+		border: 1px solid #dddddd;
+		background-color: #ffffff;
+		top: 100%;
+		left: 0;
+		opacity: 0;
+		visibility: hidden; 
+	}
+	.dekstop-child li{
+		list-style-type: none;
+		width: 200px;
+		padding: 5px 0;
+		position: relative;
+	}
+	
+	.dekstop-parent:hover .dekstop-child{
+		opacity: 5;
+		visibility: visible;
+		border-top: 4px solid #ef4a23;
+	}
+	.dekstop-child li:hover{
+		background-color: #ef4a23;
+		color: #ffffff;
+	}
+
+	.dekstop-child li:hover a{
+		color: #ffffff;
+	}
+	.dekstop-child li a{
+		padding-left: 15px;
+		font-weight: 500;
+		
+	}
+	.star-sub-1-parent{
+		position: relative;
+	}
+	
+	.star-sub-1-child li a {
+		color: black !important;
+	}
+	.star-sub-1-child li:hover a{
+		color: #ffffff !important;
+	}
+	.star-sub-1-child{
+		position: absolute;
+		left: 100%;
+		top: 0px;
+		background-color: #ffffff;
+		border: 1px solid #dddddd;
+		opacity: 0;
+		visibility: hidden;
+		display: none;
+	}
+	.star-sub-1-parent:hover .star-sub-1-child{
+		opacity: 1;
+		visibility: visible;
+		display: block;
+	} 
+	.star-sub-1-parent a{
+		position: relative;
+		width: 200px;
+	}
+	.star-sub-1-parent a span{
+		margin-left: 20px;
+		position: absolute;
+		top: 0;		
+		right: -10px;
+	}
+	.sub-2 li{
+		width: 225px;
+	}
+	.sub-3 li{
+		width: 250px;
+	}
+
+	/* ----------------------header-ads-css-start ---------------------------*/
+	.header-ads{
+		display: flex;
+		margin-top: 35px;
+		flex-wrap: wrap;
+	}
+	.header-ads-img img{
+		width: 900px;
+		height: 530px;
+	}
+	.header-ads-img{
+		margin-right: 30px;
+	}
+	.right-compare-bar{
+		width: 350px;
+		background-color: #ffe8a1;
+		text-align: center;
+		padding: 20px;
+		box-sizing: border-box;
+		margin-bottom: 23px;
+		height: 280px;
+	}
+	.right-compare-bar h4{
+		font-weight: 500;
+		font-size: 15px;
+		margin-bottom: 4px;
+	}
+	.right-compare-bar p{
+		font-size: 14px;
+		color: #6f6750;
+		margin-bottom: 15px;
+	}
+	.right-compare-bar input{
+		outline: none;
+		border: none;
+		width: 280px;
+		box-sizing: border-box;
+		padding: 10px 15px;
+		font-size: 15px;
+		margin-bottom: 15px;
+		color: #6f6750;
+		font-weight: 500;
+		border-radius: 4px;
+	}
+	.right-compare-bar .src{
+		text-decoration: none;
+		margin-left: -26px;
+		margin-top: 10px;
+		font-size: 19px;
+		color: #6f6750;
+	}
+	
+	.right-compare-bar button a{
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 600;
+		color: #00237e;
+	}
+	.right-compare-bar button{
+		width: 280px;
+		outline: none;
+		border: 2px solid #2c3a96;
+		padding: 10px 15px;
+		box-sizing: border-box;
+		background-color: transparent;
+        transition: all 300ms linear;
+	}
+	.right-compare-bar button:hover{
+		background-color: #00237e;
+	}
+	.right-compare-bar button:hover a{
+		color: #ffffff;
+	}
+	.right-ads-bar img {
+		width: 350px;
+	}
+	.rows-parent{
+		display: flex;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+.row{
+	background-color: #ffffff;
+	padding: 20px 30px;
+	border: 1px solid #dddddd;
+	display: flex;
+	width: 302px;
+	align-items: center;
+	
+}
+.row a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #081621;
+	width: 60px;
+	height: 60px;
+	background-color: #ef4a23;
+	transform: translateX(-5px);
+	position: relative;
+	border-radius: 100%;
+}
+
+.row a i {
+    color: #f8f8f8;
+    transform: translateY(75%);
+    position: absolute;
+    left: 16px;
+}
+
+.row .content p{
+	color: #222;
+	font-size: 15px;
+	font-weight: 500;
+}
+.row .content{
+	margin-left: 12px;
+}
+.row-margin{
+	margin-right: 25px;
+}
+.content h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.sideline-text{
+	background-color: #ffffff;
+	border-radius: 80px;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+/*--------------------- Featured Category_css-Start --------------------*/
+.rows-cat-header{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.rows-cat-header h2{
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.rows-cat-header p{
+	font-size: 18px;
+	font-weight: 400;
+	
+}
+.cat-rows-parent{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.row-cat{
+	width: 140px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	border: 1px solid #dddddd;
+	transition: all .2s ease;
+}
+.row-cat:hover{
+	padding: 1px;
+	border: 3px solid #dddddd;
+}
+.row-cat p{
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.row-cat:hover p{
+	color: #ef4a23;
+}
+.row-cat img{
+	width: 45%;
+	margin-top: 10px;
+}
+
+
+
+
+
+/*--------------------- Featured Category_css-end --------------------*/
+
+/*------------------------ Featured-Products-para-start -----------------------*/
+.Product-row-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.product-row{
+	width: 300px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 30px 0;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	position: relative;
+}
+.product-row:hover{
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+.product-row:hover .rows-details h4{
+	color: #ef4a23;
+	text-decoration: underline;
+}
+.product-row .rows-img{
+	text-align: center;
+    border-bottom: 3px solid rgba(55, 73, 187, .03);
+    padding: 20px;
+    margin: 0;
+	position: relative;
+}
+.product-row .rows-img img{
+	max-width: 100%;
+	
+}
+.rows-img .save-money{
+	position: absolute;
+	background-color: #6e2594;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 120px;
+	font-size: 14px;
+	color: white;
+	left: 0;
+	top: -10px;
+	padding: 4px;
+}
+.rows-details{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.rows-details h4{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.rows-details span{
+	color: #ef4a23;
+	font-weight: 600;
+	font-size: 18px;
+}
+.rows-details .old-price{
+	color: #6f6750;
+	text-decoration: line-through;
+	margin-left: 8px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.row-price{
+	position: absolute;
+	top: 390px;
+}
+
+
+
+
+/*------------------------ Featured-Products-para-End -----------------------*/
+
+/*--------------------------- Popular-course-css-start ------------------------------*/
+.rows-heading p{
+width: 828px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+}
+.rows-heading{
+	margin-top: 50px ;
+}
+.popular-courses-parent{
+	display: flex;
+	flex-wrap: wrap;
+}
+.popular-rows{
+	width: 400px;
+	margin-right: 28px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 25px;
+	margin-bottom: 28px;
+	padding-bottom: 15px;
+}
+.popular-rows-img img{
+ max-width: 100%;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+}
+.polpular-courses-details{
+ padding: 20px;
+}
+.polpular-courses-details h6{
+	font-size: 13px;
+	color: #ef4a23;
+	font-weight: 550;
+	margin-bottom: 5px;
+}
+.polpular-courses-details h3{
+font-size: 22px;
+font-weight: 550;
+margin-bottom: 5px;
+}
+.polpular-courses-details ul li{
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 20px;
+}
+.polpular-courses-details ul li span{
+	color: #ef4a23;
+}
+.polpular-courses-details ul li .same{
+	color: #6f6750;
+	font-size: 15px;
+}
+.polpular-courses-details ul li .same-2{
+	color: #6f6750;
+	font-size: 15px;
+	transform: translateX(60px);
+}
+.polpular-courses-details .course-fee a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color: #081621;
+}
+.polpular-courses-details .course-fee .discount-btn a{
+	text-decoration: none;
+	color: #8c0000;
+	font-size: 15px;
+	font-weight: 500;
+}
+.polpular-courses-details .course-fee .discount-btn{
+	background-color: #ffffff;
+	border: 1px solid #ef4a23;
+	padding: 5px;
+	border-radius: 10px;
+	transform: translateX(33px);
+	transition: all .5s ease;
+}
+.polpular-courses-details .course-fee .discount-btn:hover{
+	color: #ffffff;
+	background-color: #ef4a23;
+}
+.polpular-courses-details .course-fee .discount-btn:hover a{
+	color: #ffffff;
+}
+
+
+/*--------------------------- Popular-course-css-End ------------------------------*/
